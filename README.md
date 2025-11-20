@@ -10,17 +10,17 @@ The goal is to provide a clean, readable, and expandable implementation suitable
 
 ## Features
 
-  AI opponent powered by Minimax
+- AI opponent powered by Minimax
   
-  Faster decision-making using Alpha-Beta pruning
+- Faster decision-making using Alpha-Beta pruning
+
+- Configurable search depth
   
-  Configurable search depth
+- Human vs AI gameplay
   
-  Human vs AI gameplay
+- Modular design (board logic, AI logic, game engine separated)
   
-  Modular design (board logic, AI logic, game engine separated)
-  
-  Easy to extend with better heuristics or GUI
+- Easy to extend with better heuristics or GUI
 
 ## Installation
 1. Clone the repository
@@ -91,3 +91,24 @@ def minimax(board, depth, maximizing, alpha, beta):
         return value
 ```
 ## Demo
+<img width="350" height="300" alt="Screenshot 2025-11-20 221949" src="https://github.com/user-attachments/assets/620cd1a9-ce46-42d1-8b50-aad3d6fcb4d9" />
+
+## Future Improvements
+
+- Better evaluation heuristic
+
+- Monte Carlo Tree Search (MCTS) mode
+
+- GUI version (Tkinter / Pygame)
+
+- Online multiplayer
+
+## Contributing
+
+- Contributions are welcome!
+  
+- Feel free to open issues or submit pull requests.
+
+$$ Support
+
+If you find this project helpful, consider giving it a ⭐ on GitHub!
